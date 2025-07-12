@@ -1,0 +1,196 @@
+h1 {
+    font-family: "Gravitas One", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 64pt;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 36pt;
+    font-style: normal;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 32pt;
+    font-style: normal;
+    text-align: center;
+}
+
+h4 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 22pt;
+    font-style: normal;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    color: rgba(7, 212, 144, 0.596);
+}
+
+.upper-banner {
+    background-color: #E6FAF7;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.banner-icon {
+    height: 200px;
+    width: auto;
+}
+
+#one {
+    grid-column-start: 1;
+    grid-column-end: 2 ;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#two {
+    grid-column-start: 3;
+    grid-column-end: 4 ;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+}
+
+#three {
+    grid-column-start: 2;
+    grid-column-end: 3 ;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.upper-banner > div > h1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.upper-banner > div > h2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.portrait-photo > img {
+    height: 350px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.portrait-photo {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px ;
+}
+
+p {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+}
+
+.description-text {
+    text-align: center;
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+hr {
+    border: dotted #FFEDF3;
+    width: 40%;
+    margin-top: 40px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 2fr 6fr;
+    width: 55%;
+}
+
+.content-image {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content-title {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.content-caption {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.content > div > img {
+    width: 150px;
+    height: auto;
+}
+
+.lower-banner {
+    background-color: #65C4C4;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
